@@ -26,10 +26,11 @@ header {
 }
 
 #logo-img {
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     margin: 20px;
+    margin-left: 100px;
 }
 
 nav a {
@@ -60,7 +61,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 90px;
+    gap: 20px;
 }
 
 .topo-do-site h1 {
@@ -73,14 +74,14 @@ main {
 }
 
 .topo-do-site img {
-    width: 100%;
+    width: 700px;
     border-radius: 10px;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 .topo-do-site02 img {
-    width: 200%;
-    border-radius: 20px;
+    width: 700px;
+    border-radius: 10px;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
@@ -102,11 +103,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 
 .objetivo {
     flex: 1;
-    background-color: #f9f9f9;
+    background-color: #cccccc;
     padding: 20px;
     border-radius: 10px;
 }
@@ -165,6 +167,11 @@ main {
     color: #fff;
 }
 
+h2 {
+    color:#fff;
+    font-size: 30px;
+}
+
 .txt-topo-site {
     color:#fff;
 }
@@ -199,9 +206,70 @@ main {
 #main-new {
     width: 100%;
     background-color: #23af00f3;
-    margin: 10px auto;
+    margin: 50px auto;
     padding: 20px;
+    text-align: center;
 }
+
+#main-new h1{
+    color:#fff
+}
+
 .foto-item {
     margin: 60px;
+}
+
+.foto-item {
+    background-color: #23af00;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.foto-item:hover {
+    border-bottom: 3px solid #fffffff3; 
+    color:rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+h1 span {
+    color:#23af00;
+}
+
+.txt-topo-site h1 {
+    color: #e06500;
+}
+
+h2 span {
+    color:#23af00;
+}
+
+.interface h2 {
+    color:#e06500
+}
+
+.contato h1 {
+    color: #e06500;
+}
+
+.contato h1 span {
+    color:#23af00;
+}
+
+.txt-topo-site p{
+    font-size: 20px;
+}
+
+.img-topo-site {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato h1{
+    color: #e06500;
+    margin: 50px;
+}
+
+.contato h3 {
+    color:#fff;
+    margin: 50px;
 }
