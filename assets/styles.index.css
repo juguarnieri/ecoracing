@@ -78,6 +78,12 @@ main {
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
+.topo-do-site02 img {
+    width: 200%;
+    border-radius: 20px;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
 @keyframes flutuar {
     0% {
         transform: translateY(0);
